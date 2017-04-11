@@ -1,6 +1,6 @@
 #!groovy
 node {
-    def test = "hoge"
+    def test = "hoge2"
     stage('test'){
 		sh "echo ${test}"
 	}
